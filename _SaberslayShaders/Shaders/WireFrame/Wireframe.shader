@@ -8,6 +8,7 @@ Shader "Saberslay shaders/FX/Geometry/Wireframe"
         _BackColor ("Back color", color) = (1., 1., 1., 1.)
         [Toggle] _RemoveDiag("Remove diagonals?", Float) = 0.
     }
+    CustomEditor "Saberslay"
     SubShader
     {
         Tags { "Queue"="Geometry" "RenderType"="Opaque" }
