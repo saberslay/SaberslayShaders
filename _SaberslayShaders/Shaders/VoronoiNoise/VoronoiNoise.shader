@@ -1,6 +1,6 @@
 ﻿Shader "Saberslay shaders/VoronoiNoise" {
 	Properties {
-		_VoronoiNoise("Amount of Voronoi Noise", Range( 1 , 100)) = 10
+		_VoronoiNoise("Amount of Voronoi Noise", Range( 10 , 100)) = 10
 	}
 	SubShader {
 		Tags { "RenderType" = "Opaque" }

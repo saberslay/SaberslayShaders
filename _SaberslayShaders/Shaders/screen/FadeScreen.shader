@@ -4,7 +4,7 @@ Shader "Saberslay Shaders/Screen/Fade Screen"
 	{
 		_Colorspeed("Color speed", Range( 0 , 1)) = 0.2
 		_Light("Light", Range( -1 , 1)) = 1
-		_color("color ", Range( -1 , 1)) = 1
+		_color("color ", Range( 0 , 1)) = 1
 		[HideInInspector] __dirty( "", Int ) = 1
 	}
 	
