@@ -1,4 +1,4 @@
-Shader "Saberslay Shaders/Screen/Fade Screen"
+Shader "Saberslay shaders/Screen/Fade Screen"
 {
 	Properties
 	{
